@@ -10,7 +10,5 @@ public:
 	Bullet(int x, int y, int direction);
 	void move(Graphics^ g);
 	~Bullet();
-
-
 };
 

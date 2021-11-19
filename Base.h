@@ -8,7 +8,9 @@ class Base
 {
 protected:
 	int x, y, w, h, dx, dy;
+
 	bool remove;
+
 	int idx, idy, maxidx, maxidy;
 public:
 	Base();

@@ -81,6 +81,7 @@ namespace SecondGradedLab {
 			// timer1
 			// 
 			this->timer1->Enabled = true;
+			this->timer1->Interval = 25;
 			this->timer1->Tick += gcnew System::EventHandler(this, &MyForm::timer1_Tick);
 			// 
 			// MyForm

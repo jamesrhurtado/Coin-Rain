@@ -3,7 +3,7 @@
 
 Soldier::Soldier(){}
 Soldier::Soldier(int x, int y): Base(x, y, 4, 4, 0,0){
-	this->dx = dy = 10;
+	this->dx = dy = 20;
 }
 
 void Soldier::move(Graphics^ g, char i){

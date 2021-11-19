@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 using namespace System::Drawing;
-
+//this is the base class
 class Base
 {
 protected:
